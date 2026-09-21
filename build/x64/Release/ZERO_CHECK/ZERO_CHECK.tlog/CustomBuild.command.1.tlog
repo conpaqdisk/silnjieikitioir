@@ -1,0 +1,10 @@
+^C:\USERS\FUJITSU\DESKTOP\USKO ARAMA\USKO VERI\DLL\GUI\PLUGIN_LOADER\BUILD\CMAKEFILES\4F48A1AA5537BE8DBCAA2B28FD0841DD\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Fujitsu/Desktop/usko arama/usko veri/dll/gui/plugin_loader" "-BC:/Users/Fujitsu/Desktop/usko arama/usko veri/dll/gui/plugin_loader/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/Fujitsu/Desktop/usko arama/usko veri/dll/gui/plugin_loader/build/plugin_loader.slnx"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

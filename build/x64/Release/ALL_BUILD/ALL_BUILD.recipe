@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>C:\Users\Fujitsu\Desktop\usko arama\usko veri\dll\gui\plugin_loader\build\x64\Release\ZERO_CHECK</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\Fujitsu\Desktop\usko arama\usko veri\dll\gui\plugin_loader\build\Release\host.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\Fujitsu\Desktop\usko arama\usko veri\dll\gui\plugin_loader\build\Release\plugin_bad_api.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\Fujitsu\Desktop\usko arama\usko veri\dll\gui\plugin_loader\build\Release\plugin_circular_a.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\Fujitsu\Desktop\usko arama\usko veri\dll\gui\plugin_loader\build\Release\plugin_circular_b.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\Fujitsu\Desktop\usko arama\usko veri\dll\gui\plugin_loader\build\Release\plugin_dependency.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\Fujitsu\Desktop\usko arama\usko veri\dll\gui\plugin_loader\build\Release\plugin_init_fail.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\Fujitsu\Desktop\usko arama\usko veri\dll\gui\plugin_loader\build\Release\plugin_missing_export.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\Fujitsu\Desktop\usko arama\usko veri\dll\gui\plugin_loader\build\Release\plugin_success.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\Fujitsu\Desktop\usko arama\usko veri\dll\gui\plugin_loader\build\Release\test_runner.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\Fujitsu\Desktop\usko arama\usko veri\dll\gui\plugin_loader\build\x64\Release\ALL_BUILD</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles />
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>

@@ -1,0 +1,27 @@
+plugin_loader/
+├── CMakeLists.txt
+├── README.md
+├── include/
+│   └── plugin_api/
+│       ├── plugin_api.h          (C ABI, POD tipler, export isimleri)
+│       └── plugin_version.h      (sürüm makroları + compat)
+├── src/
+│   ├── host/
+│   │   ├── main.cpp
+│   │   ├── error_codes.h
+│   │   ├── logger.h / logger.cpp
+│   │   ├── safe_dll_dir.h / safe_dll_dir.cpp
+│   │   ├── pe_validator.h / pe_validator.cpp
+│   │   ├── manifest.h / manifest.cpp
+│   │   ├── dep_graph.h / dep_graph.cpp
+│   │   └── plugin_loader.h / plugin_loader.cpp
+│   └── plugins/
+│       ├── common/plugin_base.h
+│       ├── success/plugin_success.cpp
+│       ├── missing_export/plugin_missing_export.cpp
+│       ├── bad_api/plugin_bad_api.cpp
+│       ├── init_fail/plugin_init_fail.cpp
+│       ├── dependency/plugin_dependency.cpp
+│       └── circular/plugin_circular.cpp
+└── tests/
+    └── test_runner.cpp
